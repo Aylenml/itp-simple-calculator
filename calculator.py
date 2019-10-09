@@ -1,3 +1,5 @@
+import math
+
 def add(x, y):
     return x+y
 
@@ -28,4 +30,4 @@ def power(x, y):
         return x*power(x,y-1)
 
 def sqrt(x):
-    pass
+   return math.sqrt(x)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
