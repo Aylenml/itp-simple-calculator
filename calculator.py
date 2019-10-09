@@ -18,12 +18,14 @@ def multiply(x, y):
 
 
 def square(x):
-    pass
+    return x*x
 
 
 def power(x, y):
-    pass
-
+    if y == 0:
+        return  1
+    else:
+        return x*power(x,y-1)
 
 def sqrt(x):
     pass
